@@ -1,0 +1,28 @@
+{
+  "subject": "acct:alansill@mast.hpc.social",
+  "aliases": [
+    "https://mast.hpc.social/@alansill",
+    "https://mast.hpc.social/users/alansill"
+  ],
+  "links": [
+    {
+      "rel": "authority",
+      "type": "text/json",
+      "href": "https://mast.hpc.social/.well-known/webfinger?resource=acct:alansill@mast.hpc.social"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mast.hpc.social/@alansill"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mast.hpc.social/users/alansill"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mast.hpc.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
